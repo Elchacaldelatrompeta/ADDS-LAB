@@ -56,8 +56,8 @@ Empresa
 •	Grupo_IT (Global, Security)
 
 4. Users
-Full Name              SamAccountName           OU                   Group Membership 
-Ana Martinez              “amartinez”                   Ventas                    Grupo_Ventas 
+Full Name              SamAccountName                       OU                   Group Membership 
+Ana Martinez              “amartinez”                     Ventas                    Grupo_Ventas 
 Pastor Lopez                 “plopez”                     Ventas                    Grupo_Ventas 
 
 Errors Encountered & Resolved
