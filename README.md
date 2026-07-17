@@ -76,20 +76,22 @@ Forest/Domain: “Master.local”
 
 Domain Controller: Windows Server 2022
 
-3. Organizational Units (OU)
+2. Organizational Units (OU)
    
 ![empresa](images/001.png)
 
-5. Security Groups
+3. Security Groups
    
 •	Grupo_Ventas (Global, Security)
 •	Grupo_RRHH (Global, Security)
 •	Grupo_IT (Global, Security)
 
-7. Users
+4. Users
    
 Full Name              SamAccountName                       OU                   Group Membership 
-Ana Martinez              “amartinez”                     Ventas                    Grupo_Ventas 
+
+Ana Martinez              “amartinez”                     Ventas                    Grupo_Ventas
+
 Pastor Lopez                 “plopez”                     Ventas                    Grupo_Ventas 
 
 --Errors Encountered & Resolved--
