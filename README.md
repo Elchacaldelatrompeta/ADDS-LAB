@@ -31,9 +31,13 @@ Technologies Used
 Technology  |  Version 
 
 Virtualization Oracle VirtualBox 7.x 
+
 Operating System Windows Server 2022 Standard (Evaluation) 
+
 Directory Service Active Directory Domain Services (AD DS) 
+
 Automation PowerShell 5.1
+
 Documentation Markdown, GitHub 
 
 
