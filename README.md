@@ -44,7 +44,7 @@ This repository documents the complete setup and administration of an Active Dir
 •	Documentation Markdown, GitHub 
 
 
-Screenshots
+--Screenshots--
 
 1. OU Structure
 ![OUs](images/1.png)
@@ -68,13 +68,15 @@ Screenshots
 ![Final OUs](images/bien.png)
 
 
-What Was Built
+--What Was Built--
 
 1. Domain
+
 Forest/Domain: “Master.local”
 Domain Controller: Windows Server 2022
 
-2. Organizational Units (OU)
+3. Organizational Units (OU)
+   
 Empresa
 ├── Usuarios
 │ ├── Ventas
@@ -83,17 +85,19 @@ Empresa
 ├── Equipos
 └── Grupos
 
-3. Security Groups
+5. Security Groups
+   
 •	Grupo_Ventas (Global, Security)
 •	Grupo_RRHH (Global, Security)
 •	Grupo_IT (Global, Security)
 
-4. Users
+7. Users
+   
 Full Name              SamAccountName                       OU                   Group Membership 
 Ana Martinez              “amartinez”                     Ventas                    Grupo_Ventas 
 Pastor Lopez                 “plopez”                     Ventas                    Grupo_Ventas 
 
-Errors Encountered & Resolved
+--Errors Encountered & Resolved--
 
 This section documents the most significant errors I faced during the lab, along with their causes and solutions. These are not just mistakes – they are learning opportunities that helped me understand how Active Directory works under the hood.
 
@@ -111,38 +115,62 @@ Next Steps
 This lab is a solid foundation, but there are several areas to expand for deeper learning and real-world readiness. Below is the planned roadmap.
 
 Security Hardening
+
 •	Configure Account Lockout Policy – Set threshold to 5 failed attempts, lockout duration 30 minutes.
+
 •	Review and strengthen Default Domain Password Policy – Increase minimum length, complexity, and expiration.
+
 •	Implement Fine Grained Password Policies (FGPP) – Apply stricter policies for IT and admin accounts.
+
 •	Enable Delegation of Control – Allow HR or department leads to reset passwords within their own OUs.
+
 •	Add privileged accounts to the Protected Users group – Mitigate credential theft attacks.
+
 •	Enable advanced audit policies – Log successful and failed logon events, account changes, and policy modifications.
 
 Advanced Administration
+
 •	Create and link Group Policy Objects (GPOs) – Apply settings like drive mappings, desktop backgrounds, or software restrictions.
+
 •	Enable the Active Directory Recycle Bin – Recover deleted objects without restoring from backup.
+
 •	Deploy a second Domain Controller – Practice replication and high availability.
+
 •	Configure AD Sites and Subnets – Simulate multiple office locations.
+
 •	Join a Windows 10/11 client VM to the domain – Test authentication and Group Policy application from a user’s perspective.
 
 
 Automation & Scripting
+
 Write PowerShell scripts for
+
   - Bulk user import from CSV.
+    
   - Mass password resets.
+    
   - Simulated help desk ticket resolution (password resets, unlocks, moves, etc.).
+    
 Automate user creation with a CSV template – Practice generating users with realistic attributes.
 
 Exam Preparation (Microsoft APL 1008)
-•	Complete the official **Microsoft Learn learning path** for Administer Active Directory Domain Services.
-•	Practice with the **Guided Project** – a simulated lab environment that mirrors the exam.
+
+•	Complete the official Microsoft Learn learning path for Administer Active Directory Domain Services.
+
+•	Practice with the Guided Project – a simulated lab environment that mirrors the exam.
+
 •	Review all tasks: promoting a DC, managing OUs, delegating control, configuring GPOs, and monitoring security logs.
 
 Documentation & Portfolio
+
 •	Publish all scripts and configuration examples to this repository.
+
 •	Add screenshots for new practices (GPOs, delegation, audit logs).
+
 •	Keep the `troubleshooting.md` file updated with new errors and solutions.
+
 •	Share the repository on LinkedIn and include it in my CV.
+
 *This section will be updated as I progress through each task.*
 
 Repository Structure
