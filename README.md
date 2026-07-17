@@ -25,14 +25,27 @@ Documentation Markdown, GitHub
 
 Screenshots
 
-    Step                                    Screenshot 
-OU Structure                           ![OUs](images/1.png) 
-Security Groups                        ![Groups](images/2.png) 
-User Creation                          ![Users](images/3.png) 
-Group Membership                       ![Membership](images/4.png) 
-Move Error                             ![Error](images/5.png) 
-Error Correction                       ![Error Fixed](images/ougrupos.png) 
-Final OUs                              ![Final](images/bien.png) 
+1. OU Structure
+![OUs](images/1.png)
+
+2. Security Groups
+![Groups](images/2.png)
+
+3. User Creation
+![Users](images/3.png)
+
+4. Group Membership
+![Membership](images/4.png)
+
+5. Move Error (Directory object not found)
+![Error](images/5.png)
+
+6. Error Correction (Get-ADGroup syntax)
+![Error Fixed](images/ougrupos.png)
+
+7. Final OU Structure
+![Final OUs](images/bien.png)
+
 
 What Was Built
 
