@@ -136,15 +136,5 @@ Documentation & Portfolio
 Repository Structure
 
 Windows-Server-ADDS-Lab/
-├── README.md
-├── images/
-│ ├── 01-install-windows.png
-│ ├── 02-SConfig.png
-│ ├── 03-ADDS-role.png
-│ ├── 04-promote-DC.png
-│ ├── 05-OUs.png
-│ ├── 06-groups.png
-│ ├── 07-users.png
-│ └── 08-group-membership.png
-└── docs/
-└── troubleshooting.md
+
+(images/estructura.png)
