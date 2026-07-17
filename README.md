@@ -12,6 +12,7 @@
 [![GitHub last commit](https://img.shields.io/github/last-commit/tuusuario/Windows-Server-ADDS-Lab)]()
 
 --Description--
+
 This repository documents the complete setup and administration of an Active Directory Domain Services (AD DS) environment using Windows Server 2022 Evaluation, running as a virtual machine on Oracle VirtualBox. The project was built as part of my preparation for the Microsoft Applied Skills: Administer Active Directory Domain Services (APL-1008) credential.
 
 --Objectives--
