@@ -134,6 +134,7 @@ Documentation & Portfolio
 *This section will be updated as I progress through each task.*
 
 Repository Structure
+
 Windows-Server-ADDS-Lab/
 ├── README.md
 ├── images/
