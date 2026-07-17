@@ -85,7 +85,8 @@ Errors Encountered & Resolved
 
 This section documents the most significant errors I faced during the lab, along with their causes and solutions. These are not just mistakes – they are learning opportunities that helped me understand how Active Directory works under the hood.
 
-Error                                          Cause                                                   Solution 
+|Error                        |                  Cause            |                                       Solution |
+
 Directory object not found (moving user) | Typo: CN=User vs CN=Users+case mismatch (`ANA` vs `Ana`) | Used `Get-ADUser` to fetch the exact DistinguishedName, then copied it into the `Move-ADObject` command. |
 
 |Invalid filter syntax in `Get-ADGroup` | Used -Filter | where-Object incorrectly (pipeline inside the filter parameter). | Used Filter to get all groups, then piped the result to `Where-Object` with the correct syntax. |
