@@ -15,6 +15,7 @@
 This repository documents the complete setup and administration of an Active Directory Domain Services (AD DS) environment using Windows Server 2022 Evaluation, running as a virtual machine on Oracle VirtualBox. The project was built as part of my preparation for the Microsoft Applied Skills: Administer Active Directory Domain Services (APL-1008) credential.
 
 --Objectives--
+
 •	Build a functional domain (`Master.local`) from scratch
 
 •	Create a hierarchical OU structure (Empresa → Usuarios/Equipos/Grupos → Ventas/RRHH/IT)
@@ -28,6 +29,7 @@ This repository documents the complete setup and administration of an Active Dir
 •	(Next steps) Automate repetitive tasks with PowerShell scripts
 
 --Technologies Used--
+
 |Technology  |  Version |
 
 •	Virtualization Oracle VirtualBox 7.x 
