@@ -78,7 +78,7 @@ Domain Controller: Windows Server 2022
 
 3. Organizational Units (OU)
    
-![empresa](image/001.png)
+![empresa](images/001.png)
 
 5. Security Groups
    
