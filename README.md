@@ -137,4 +137,4 @@ Repository Structure
 
 Windows-Server-ADDS-Lab/
 
-!(images/estructura.png)
+![estructura del laboratorio](images/estructura.png)
