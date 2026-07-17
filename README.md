@@ -23,17 +23,16 @@ Automation PowerShell 5.1
 Documentation Markdown, GitHub 
 
 
-Screenshots (Evidence)
+Screenshots
 
-| Step | Screenshot |
-| Installing Windows Server 2022 | ![Install](images/01-install-windows.png) |
-| SConfig tool (post installation) | ![SConfig](images/02-SConfig.png) |
-| Installing AD DS role | ![AD DS Role](images/03-ADDS-role.png) |
-| Promoting to Domain Controller | ![Promote DC](images/04-promote-DC.png) |
-| OU Structure (Verification) | ![OUs](images/05-OUs.png) |
-| Security Groups | ![Groups](images/06-groups.png) |
-| Users Created | ![Users](images/07-users.png) |
-| Group Membership | ![Membership](images/08-group-membership.png) |
+    Step                                    Screenshot 
+OU Structure                           ![OUs](images/1.png) 
+Security Groups                        ![Groups](images/2.png) 
+User Creation                          ![Users](images/3.png) 
+Group Membership                       ![Membership](images/4.png) 
+Move Error                             ![Error](images/5.png) 
+Error Correction                       ![Error Fixed](images/ougrupos.png) 
+Final OUs                              ![Final](images/bien.png) 
 
 What Was Built
 
