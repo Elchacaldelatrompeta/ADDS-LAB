@@ -1,4 +1,4 @@
---Acknowledgments & Development Process--
+## --Acknowledgments & Development Process--## 
 
 •	This project was developed with the assistance of **AI tools (DeepSeek)** to accelerate the learning curve, debug syntax errors, and structure the documentation in a clear, professional format.
 
@@ -11,11 +11,11 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/tuusuario/Windows-Server-ADDS-Lab)]()
 
---Description--
+## --Description--## 
 
 This repository documents the complete setup and administration of an Active Directory Domain Services (AD DS) environment using Windows Server 2022 Evaluation, running as a virtual machine on Oracle VirtualBox. The project was built as part of my preparation for the Microsoft Applied Skills: Administer Active Directory Domain Services (APL-1008) credential.
 
---Objectives--
+## --Objectives--## 
 
 •	Build a functional domain (`Master.local`) from scratch
 
@@ -29,7 +29,7 @@ This repository documents the complete setup and administration of an Active Dir
 
 •	(Next steps) Automate repetitive tasks with PowerShell scripts
 
---Technologies Used--
+##--Technologies Used--##
 
 |Technology  |  Version |
 
@@ -44,7 +44,7 @@ This repository documents the complete setup and administration of an Active Dir
 •	Documentation Markdown, GitHub 
 
 
---Screenshots--
+##--Screenshots--##
 
 1. OU Structure
 ![OUs](images/1.png)
