@@ -1,3 +1,12 @@
+Acknowledgments & Development Process
+
+This project was developed with the assistance of **AI tools (DeepSeek)** to accelerate the learning curve, debug syntax errors, and structure the documentation in a clear, professional format.
+
+Why this matters: In modern IT, leveraging AI as a co-pilot is a key skill. While the AI provided guidance and syntax correction, all commands were executed manually in the live virtual environment, and every error was validated, understood, and resolved hands-on. This documentation reflects a hybrid workflow: human judgment + AI efficiency.
+
+The final structure, security decisions, and troubleshooting steps were reviewed and approved by the author to ensure accuracy and practical relevance.
+
+
 Windows Server 2022 AD DS Lab
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/tuusuario/Windows-Server-ADDS-Lab)]()
