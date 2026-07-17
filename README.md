@@ -1,20 +1,20 @@
-Acknowledgments & Development Process
+--Acknowledgments & Development Process--
 
-This project was developed with the assistance of **AI tools (DeepSeek)** to accelerate the learning curve, debug syntax errors, and structure the documentation in a clear, professional format.
+•	This project was developed with the assistance of **AI tools (DeepSeek)** to accelerate the learning curve, debug syntax errors, and structure the documentation in a clear, professional format.
 
-Why this matters: In modern IT, leveraging AI as a co-pilot is a key skill. While the AI provided guidance and syntax correction, all commands were executed manually in the live virtual environment, and every error was validated, understood, and resolved hands-on. This documentation reflects a hybrid workflow: human judgment + AI efficiency.
+•	Why this matters: In modern IT, leveraging AI as a co-pilot is a key skill. While the AI provided guidance and syntax correction, all commands were executed manually in the live virtual environment, and every error was validated, understood, and resolved hands-on. This documentation reflects a hybrid workflow: human judgment + AI efficiency.
 
-The final structure, security decisions, and troubleshooting steps were reviewed and approved by the author to ensure accuracy and practical relevance.
+•	The final structure, security decisions, and troubleshooting steps were reviewed and approved by the author to ensure accuracy and practical relevance.
 
 
-Windows Server 2022 AD DS Lab
+•	Windows Server 2022 AD DS Lab
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![GitHub last commit](https://img.shields.io/github/last-commit/tuusuario/Windows-Server-ADDS-Lab)]()
 
-Description
+--Description--
 This repository documents the complete setup and administration of an Active Directory Domain Services (AD DS) environment using Windows Server 2022 Evaluation, running as a virtual machine on Oracle VirtualBox. The project was built as part of my preparation for the Microsoft Applied Skills: Administer Active Directory Domain Services (APL-1008) credential.
 
-Objectives
+--Objectives--
 •	Build a functional domain (`Master.local`) from scratch
 
 •	Create a hierarchical OU structure (Empresa → Usuarios/Equipos/Grupos → Ventas/RRHH/IT)
@@ -27,18 +27,18 @@ Objectives
 
 •	(Next steps) Automate repetitive tasks with PowerShell scripts
 
-Technologies Used
-Technology  |  Version 
+--Technologies Used--
+|Technology  |  Version |
 
-Virtualization Oracle VirtualBox 7.x 
+•	Virtualization Oracle VirtualBox 7.x 
 
-Operating System Windows Server 2022 Standard (Evaluation) 
+•	Operating System Windows Server 2022 Standard (Evaluation) 
 
-Directory Service Active Directory Domain Services (AD DS) 
+•	Directory Service Active Directory Domain Services (AD DS) 
 
-Automation PowerShell 5.1
+•	Automation PowerShell 5.1
 
-Documentation Markdown, GitHub 
+•	Documentation Markdown, GitHub 
 
 
 Screenshots
