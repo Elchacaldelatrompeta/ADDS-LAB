@@ -135,6 +135,4 @@ Documentation & Portfolio
 
 Repository Structure
 
-Windows-Server-ADDS-Lab/
-
 ![estructura del laboratorio](images/estructura.png)
