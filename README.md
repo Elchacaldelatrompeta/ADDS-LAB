@@ -16,10 +16,15 @@ This repository documents the complete setup and administration of an Active Dir
 
 Objectives
 •	Build a functional domain (`Master.local`) from scratch
+
 •	Create a hierarchical OU structure (Empresa → Usuarios/Equipos/Grupos → Ventas/RRHH/IT)
+
 •	Create security groups and user accounts
+
 •	Assign users to groups (simulate real-world permissions)
+
 •	Document both successes and errors to show problem solving skills
+
 •	(Next steps) Automate repetitive tasks with PowerShell scripts
 
 Technologies Used
