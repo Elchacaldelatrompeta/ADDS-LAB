@@ -29,7 +29,7 @@ This repository documents the complete setup and administration of an Active Dir
 
 •	(Next steps) Automate repetitive tasks with PowerShell scripts
 
-##--Technologies Used--
+## --Technologies Used--
 
 |Technology  |  Version |
 
@@ -44,7 +44,7 @@ This repository documents the complete setup and administration of an Active Dir
 •	Documentation Markdown, GitHub 
 
 
-##--Screenshots--
+## --Screenshots--
 
 1. OU Structure
 ![OUs](images/1.png)
@@ -68,7 +68,7 @@ This repository documents the complete setup and administration of an Active Dir
 ![Final OUs](images/bien.png)
 
 
-##--What Was Built--
+## --What Was Built--
 
 1. Domain
 
@@ -94,7 +94,7 @@ Ana Martinez              “amartinez”                     Ventas            
 
 Pastor Lopez                 “plopez”                     Ventas                    Grupo_Ventas 
 
-##--Errors Encountered & Resolved--
+## --Errors Encountered & Resolved--
 
 This section documents the most significant errors I faced during the lab, along with their causes and solutions. These are not just mistakes – they are learning opportunities that helped me understand how Active Directory works under the hood.
 
@@ -108,10 +108,10 @@ Directory object not found (moving user) | Typo: CN=User vs CN=Users+case mismat
 
 > Note: For a complete list of troubleshooting steps and additional errors, see [`docs/troubleshooting.md`](docs/troubleshooting.md).
 
-Next Steps
+## --Next Steps--
 This lab is a solid foundation, but there are several areas to expand for deeper learning and real-world readiness. Below is the planned roadmap.
 
-Security Hardening
+**Security Hardening**
 
 •	Configure Account Lockout Policy – Set threshold to 5 failed attempts, lockout duration 30 minutes.
 
@@ -125,7 +125,7 @@ Security Hardening
 
 •	Enable advanced audit policies – Log successful and failed logon events, account changes, and policy modifications.
 
-Advanced Administration
+**Advanced Administration**
 
 •	Create and link Group Policy Objects (GPOs) – Apply settings like drive mappings, desktop backgrounds, or software restrictions.
 
@@ -138,7 +138,7 @@ Advanced Administration
 •	Join a Windows 10/11 client VM to the domain – Test authentication and Group Policy application from a user’s perspective.
 
 
-Automation & Scripting
+**Automation & Scripting**
 
 Write PowerShell scripts for
 
@@ -150,7 +150,7 @@ Write PowerShell scripts for
     
 Automate user creation with a CSV template – Practice generating users with realistic attributes.
 
-Exam Preparation (Microsoft APL 1008)
+**Exam Preparation (Microsoft APL 1008)**
 
 •	Complete the official Microsoft Learn learning path for Administer Active Directory Domain Services.
 
@@ -158,7 +158,7 @@ Exam Preparation (Microsoft APL 1008)
 
 •	Review all tasks: promoting a DC, managing OUs, delegating control, configuring GPOs, and monitoring security logs.
 
-##Documentation & Portfolio
+## --Documentation & Portfolio--
 
 •	Publish all scripts and configuration examples to this repository.
 
@@ -170,6 +170,6 @@ Exam Preparation (Microsoft APL 1008)
 
 *This section will be updated as I progress through each task.*
 
-##--Repository Structure
+## --Repository Structure--
 
 ![estructura del laboratorio](images/estructura.png)
