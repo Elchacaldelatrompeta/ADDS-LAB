@@ -88,11 +88,11 @@ Domain Controller: Windows Server 2022
 
 4. Users
    
-Full Name              SamAccountName                       OU                   Group Membership 
+Full Name      /        SamAccountName               /         OU             /      Group Membership 
 
-Ana Martinez              “amartinez”                     Ventas                    Grupo_Ventas
+Ana Martinez       /       “amartinez”               /       Ventas            /        Grupo_Ventas
 
-Pastor Lopez                 “plopez”                     Ventas                    Grupo_Ventas 
+Pastor Lopez          /       “plopez”               /       Ventas            /        Grupo_Ventas 
 
 ## --Errors Encountered & Resolved--
 
