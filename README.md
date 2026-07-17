@@ -73,17 +73,12 @@ This repository documents the complete setup and administration of an Active Dir
 1. Domain
 
 Forest/Domain: “Master.local”
+
 Domain Controller: Windows Server 2022
 
 3. Organizational Units (OU)
    
-Empresa
-├── Usuarios
-│ ├── Ventas
-│ ├── RRHH
-│ └── IT
-├── Equipos
-└── Grupos
+![empresa](image/001.png)
 
 5. Security Groups
    
